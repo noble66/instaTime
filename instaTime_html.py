@@ -1,4 +1,4 @@
-# can use this function to generate the html instead of json at endpoint
+# can use this function to generate the html instead of json at endpoint for timeline
 def generate_instatime(target_cat, minusDays, debug=0):
     monthList = {'oct':['2013-11-01', 31],'sept':['2013-10-01', 30], 'aug':['2013-09-01', 31],'july':['2013-08-01', 31], 'jan': ['2013-02-01',31], 'feb': ['2013-03-01', 28], 'mar': ['2013-04-01',31], 'apr':['2013-05-01',30], 'may':['2013-06-01', 31], 'june':['2013-07-01', 30]}
     print 'Received: ', target_cat, minusDays
