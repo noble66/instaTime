@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+# Generates JSON output for timeline
 import sys
 sys.path.append('/home/suman/insta/')
 sys.path.append('/home/suman/insta/realtime')
